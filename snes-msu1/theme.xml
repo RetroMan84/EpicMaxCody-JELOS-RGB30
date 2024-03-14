@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+  
+	<text name="nameLabel" extra="true">
+    		<text>SNES MSU-1</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+
+	<text name="sys_line1" extra="true">
+    		<text>Nintendo</text>
+  	</text>
+  
+	<text name="sys_line2" extra="true">
+    		<text>SNES MSU-1</text>
+	</text>
+  
+	<text name="shortdescription" extra="true">
+   		<text>Enhancement Chip</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>The MSU-1 chip is a Super Nintendo Entertainment System expansion chip that allows ROM files up to 4 gigabytes to be put into a Super Nintendo cartridge, and can also play CD-quality audio files over gameplay, freeing up extra audio channels for sound effects.</text>
+  	</text>
+ 
+</view>
+
+</theme>

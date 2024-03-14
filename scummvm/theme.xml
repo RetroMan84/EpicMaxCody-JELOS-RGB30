@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+    
+	<text name="nameLabel" extra="true">
+    		<text>Scummvm</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+
+  	<text name="sys_line1" extra="true">
+    		<text>Engine</text>
+  	</text> 
+
+  	<text name="sys_line2" extra="true">
+    		<text>Scumm VM</text>
+  	</text> 
+  
+	<text name="shortdescription" extra="true">
+   		<text>2001  ·  Game Engine</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>Originally designed to play LucasArts adventure games that use the SCUMM system, it also supports a variety of non-SCUMM games by companies like Revolution Software and Adventure Soft.</text>
+  	</text>
+ 
+</view>
+
+</theme>

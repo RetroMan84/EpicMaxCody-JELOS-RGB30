@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+  
+	<text name="nameLabel" extra="true">
+    		<text>Nintendo Super Game Boy</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+
+  	<text name="sys_line1" extra="true">
+    		<text>Nintendo</text>
+  	</text>
+  
+	<text name="sys_line2" extra="true">
+    		<text>Super Game Boy</text>
+	</text>
+  
+	<text name="shortdescription" extra="true">
+   		<text>1994  ·  Accessory</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>The Super Game Boy is a peripheral that allows Game Boy cartridges to be played on a Super Nintendo Entertainment System console.</text>
+  	</text>
+ 
+</view>
+
+</theme>

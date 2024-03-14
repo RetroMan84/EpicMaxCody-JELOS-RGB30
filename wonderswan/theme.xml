@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+    
+	<text name="nameLabel" extra="true">
+    		<text>Wonderswan</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+
+  	<text name="sys_line1" extra="true">
+    		<text>Bandai</text>
+  	</text> 
+
+  	<text name="sys_line2" extra="true">
+    		<text>Wonderswan</text>
+  	</text> 
+  
+	<text name="shortdescription" extra="true">
+   		<text>1999  ·  Handheld</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>Powered by a 16 bit central processing unit, it took advantage of a low price point and long battery life in comparison to the competition.</text>
+  	</text>
+ 
+</view>
+
+</theme>

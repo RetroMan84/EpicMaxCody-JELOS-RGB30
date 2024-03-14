@@ -1,0 +1,29 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+    
+	<text name="nameLabel" extra="true">
+    		<text>LOWRES NX</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+  
+	<text name="sys_line2" extra="true">
+    		<text>LOWRES NX</text>
+  	</text>    
+  
+	<text name="shortdescription" extra="true">
+   		<text>2017  ·  Fantasy Console</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>LowRes NX was inspired by real 8- and 16-bit systems and simulates chips for graphics, sound, and I/O that actually work like real hardware.</text>
+  	</text>
+ 
+</view>
+
+</theme>

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+    
+	<text name="nameLabel" extra="true">
+    		<text>Z-Machine</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+
+  	<text name="sys_line1" extra="true">
+    		<text>Engine</text>
+  	</text> 
+
+  	<text name="sys_line2" extra="true">
+    		<text>Z-Machine</text>
+  	</text> 
+  
+	<text name="shortdescription" extra="true">
+   		<text>1979  ·  Game Engine</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>The Z-machine is a virtual machine that was developed by Joel Berez and Marc Blank in 1979 and used by Infocom for its text adventure games.</text>
+  	</text>
+ 
+</view>
+
+</theme>

@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+  
+	<text name="nameLabel" extra="true">
+    		<text>Famicom Disk System</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+  
+	<text name="sys_line1" extra="true">
+    		<text>Famicom</text>
+  	</text>
+  
+	<text name="sys_line2" extra="true">
+    		<text>Disk System</text>
+	</text>
+ 
+	<text name="shortdescription" extra="true">
+   		<text>1986  ·  Accessory</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>The Disk System is a peripheral for Nintendo's Family Computer home console, released only in Japan.</text>
+  	</text>
+ 
+</view>
+
+</theme>

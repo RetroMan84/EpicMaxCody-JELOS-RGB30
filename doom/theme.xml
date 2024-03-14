@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+    
+	<text name="nameLabel" extra="true">
+    		<text>Doom Engine</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+
+  	<text name="sys_line1" extra="true">
+    		<text>ENGINE</text>
+  	</text>
+  
+	<text name="sys_line2" extra="true">
+    		<text>Doom</text>
+  	</text> 
+ 
+	<text name="shortdescription" extra="true">
+   		<text>1993 · Game Engine</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS.</text>
+  	</text>
+
+</view>
+
+</theme>

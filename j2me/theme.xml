@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+  
+	<text name="nameLabel" extra="true">
+    		<text>J.A.V.A</text>
+  	</text>
+
+</view>    
+
+<view name="system">
+
+  	<text name="sys_line1" extra="true">
+    		<text>Oracle</text>
+  	</text>
+  
+	<text name="sys_line2" extra="true">
+    		<text>J.A.V.A.</text>
+	</text>
+  
+	<text name="shortdescription" extra="true">
+   		<text>1995  ·  Programming Language</text>
+  	</text>
+  
+	<text name="longdescription" extra="true">
+   		<text>The once popular JAVA game is known for its compact size, installed on Nokia, Motorola, and MTK counterfeit phones.</text>
+  	</text>
+ 
+</view>
+
+</theme>

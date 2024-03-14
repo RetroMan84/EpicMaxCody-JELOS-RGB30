@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video">
+
+	<text name="nameLabel" extra="true">
+		<text>Apple Macintosh</text>
+	</text>
+
+</view>    
+
+<view name="system">
+
+	<text name="sys_line1" extra="true">
+    		<text>Apple</text>
+	</text> 
+
+  	<text name="sys_line2" extra="true">
+		<text>Macintosh</text>
+	</text>
+    
+	<text name="shortdescription" extra="true">
+   		<text>1984  ·  Home Computers</text>
+  	</text>
+
+	<text name="longdescription" extra="true">
+		<text>The original Macintosh is the first successful mass-market all-in-one desktop personal computer to have featured a graphical user interface, built-in screen, and mouse.</text>
+  	</text>
+
+</view>
+
+</theme>
