@@ -1,0 +1,394 @@
+<!--
+Theme name:     Epic Cody
+Artwork by:     CodyV59 
+Coding by:      CodyV59
+Mod by:         G.R.H
+translation by: G.R.H
+
+thanks to Chicuelo and Nick L (c64-dev)
+
+# Thanks and Credits
+Some controllers and graphics used in this theme are created by great artists who kindly agreed to include their art within the theme.
+
+# License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see README.md for full details.
+-->
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+	<variables>
+		<controllerSubsetName>Show controllers in system view</controllerSubsetName>
+	</variables>
+	
+	<subset name="controller" displayName="${controllerSubsetName}">
+		<include name="on" displayName="${on}"/>
+        	<include name="off" displayName="${off}">./_art/settings/controllers.xml</include>
+    	</subset>
+
+<!-- System Carousel //-->
+
+<view name="system">
+      
+	<image name="poster" extra="true">
+        	<path>./_art/posters/${system.theme}.jpg</path>
+        	<path>./_art/posters/${system.theme}.png</path>
+        	<tile>false</tile>
+        	<origin>1 0</origin>
+        	<pos>1 0</pos>
+        	<size>0 1</size>
+    	</image>
+
+ 	<image name="clockbg" extra="true">
+        	<path>./_art/clockbg.png</path>
+		<tile>false</tile>
+        	<size>1 1</size>
+        	<pos>0 0</pos>
+        	<origin>0 0</origin>
+        	<zIndex>32</zIndex>
+    	</image>
+
+    	<carousel name="systemcarousel">
+        	<type>vertical</type>
+        	<color>00000000</color>
+        	<origin>1 1</origin>
+        	<pos>1 1</pos>
+        	<size>1 1</size>
+        	<logoScale>1</logoScale>
+        	<logoSize>0.01 0.01</logoSize>
+        	<maxLogoCount>0</maxLogoCount>
+    	</carousel>
+
+    	<text name="shortdescription" extra="true">
+        	<fontPath>./_art/Acre.otf</fontPath>
+        	<alignment>left</alignment>
+        	<forceUppercase>0</forceUppercase>
+        	<fontSize>0.033</fontSize>
+     		<color>00000099</color>
+        	<origin>0 0</origin>
+        	<pos>0.008 0.003</pos>
+        	<size>0.5 0.025</size>
+		<glowColor>ff360033</glowColor>
+		<glowSize>3</glowSize>
+        	<zIndex>34</zIndex>
+    	</text>
+    
+	<text name="sys_line1" extra="true">
+        	<fontPath>./_art/BebasNeue.otf</fontPath>
+        	<alignment>left</alignment>
+        	<forceUppercase>1</forceUppercase>
+        	<color>00000099</color>
+		<fontSize>0.07</fontSize>
+        	<origin>0 0</origin>
+        	<pos>0.011 0.1</pos>
+        	<size>0 0</size>
+		<glowColor>ff360055</glowColor>
+		<glowSize>4</glowSize>
+    	</text>
+    
+    	<text name="sys_line2" extra="true">
+        	<fontPath>./_art/BebasNeue.otf</fontPath>
+        	<alignment>left</alignment>
+        	<forceUppercase>1</forceUppercase>
+		<fontSize>0.15</fontSize>
+        	<origin>0 0</origin>
+        	<pos>0.008 0.150</pos>
+        	<size>0 0</size>
+      	  	<color>FFFFFF55</color>
+		<glowColor>44444477</glowColor>
+		<glowSize>4</glowSize>
+    	</text>
+
+    	<text name="systemInfo">
+        	<fontPath>./_art/BebasNeue.otf</fontPath>
+        	<alignment>left</alignment>
+        	<backgroundColor>00000000</backgroundColor>
+        	<forceUppercase>1</forceUppercase>
+        	<color>FFFFFF</color>
+        	<origin>0 0</origin>
+        	<pos>0.009 0.33</pos>
+        	<size>0.400 0.048</size>
+        	<fontSize>0.063</fontSize>
+		<systemInfoDelay>350</systemInfoDelay>
+    	</text>
+
+    	<image name="buttonA" extra="true">
+		<path>./_art/buttonA.png</path>
+        	<tile>false</tile>
+        	<origin>0 0</origin>
+        	<pos>0.003 0.40</pos>
+        	<size>0 00</size>
+		<color>ff7f32</color>
+    	</image>
+    
+    	<text name="longdescription" extra="true">
+        	<fontPath>./_art/Acre.otf</fontPath>
+        	<alignment>left</alignment>
+       		<forceUppercase>0</forceUppercase>
+        	<fontSize>0.026</fontSize>
+        	<color>ffffff</color>
+ 		<lineSpacing>1.18</lineSpacing>
+        	<origin>0 0</origin>
+        	<pos>0.009 .61</pos>
+        	<size>0.28 0.24</size>
+    	</text>
+
+    	<image name="controller" extra="true">
+        	<path>./_art/controllers/${system.theme}.png</path>
+        	<tile>false</tile>
+        	<origin>0 0</origin>
+        	<pos>0.32 0.53</pos>
+        	<maxSize>0.5 0.45</maxSize>
+    	</image>
+
+</view>
+
+<!-- System Carousel END //-->
+
+<!-- Help Menu - All Views //-->
+
+<view name="system">
+
+	<helpsystem name="help">
+        	<pos>.01 .97</pos>
+	    	<origin>0 0</origin>
+        	<textColor>ffffff</textColor>
+        	<iconColor>dc071b</iconColor>
+		<glowColor>ff360033</glowColor>
+		<glowSize>3</glowSize>
+    	</helpsystem>
+</view>
+
+<view name="basic, detailed, video">
+
+	<helpsystem name="help">
+        	<pos>.01 .97</pos>
+	    	<origin>0 0</origin>
+        	<textColor>ffffff</textColor>
+        	<iconColor>dc071b</iconColor>
+		<glowColor>ff360033</glowColor>
+		<glowSize>3</glowSize>
+    	</helpsystem>
+</view>
+
+<!-- Help Menu - All Views END //-->
+
+<!-- Battery Wifi and Clock - Screen View //-->
+
+<view name="screen">
+
+    	<text name="clock">
+     		<color>00000099</color>
+      		<fontPath>./_art/BebasNeue.otf</fontPath>
+      		<fontSize>0.04</fontSize>
+      		<origin>1 1</origin>
+      		<pos>1.1725 1.13</pos>
+      		<size>0.3 0.3</size>
+      		<alignment>left</alignment>
+      		<verticalAlignment>center</verticalAlignment>
+		<rotation>0</rotation>
+		<glowColor>ff360033</glowColor>
+		<glowSize>3</glowSize>
+    	</text>
+
+ 	<batteryIndicator name="batteryIndicator">
+      		<size>0.04 0.04</size>
+      		<incharge>./art/battery/incharge.svg</incharge>
+      		<full>./art/battery/full.svg</full>
+      		<at75>./art/battery/75.svg</at75>
+      		<at50>./art/battery/50.svg</at50>
+      		<at25>./art/battery/25.svg</at25>
+      		<empty>./art/battery/empty.svg</empty>
+      		<color>FF3600</color>
+    	</batteryIndicator>
+
+    	<batteryIndicator name="batteryIndicator" tinyScreen="true">
+      		<pos>0.94 -0.01</pos>
+      		<size>0.06 0.06</size>
+    	</batteryIndicator>
+
+	<controllerActivity name="controllerActivity">
+         	<visible>false</visible>
+      	</controllerActivity>
+</view>
+
+<!-- Battery Wifi and Clock - Screen View END //-->
+
+
+<!-- Gamelist view - Everything But Media - Detailed and Video Views //-->
+
+<view name="detailed, video">
+
+    	<image name="background" extra="true">
+        	<tile>false</tile>
+        	<path>./_art/ingame-global-bg.png</path>
+        	<size>1 1</size>
+        	<pos>0 0</pos>
+    	</image>
+
+    	<textlist name="gamelist">
+        	<selectorColor>1c1c1c00</selectorColor>
+        	<selectedColor>FF3600</selectedColor>
+        	<selectorHeight>0.06</selectorHeight>
+        	<primaryColor>585858</primaryColor>
+        	<secondaryColor>888888</secondaryColor>
+        	<fontPath>./_art/Acre.otf</fontPath>
+        	<alignment>left</alignment>
+        	<pos>0 0.10</pos>
+	    	<size>0.4 0.86</size>
+        	<fontSize>0.036</fontSize>
+        	<lineSpacing>1.5</lineSpacing>
+        	<horizontalMargin>0.003</horizontalMargin>
+        	<zIndex>32</zIndex>
+    	</textlist>
+    
+    	<text name="nameLabel" extra="true">
+        	<fontPath>./_art/BebasNeue.otf</fontPath>
+        	<alignment>left</alignment>
+        	<forceUppercase>1</forceUppercase>
+        	<color>FFFFFF</color>
+        	<fontSize>0.070</fontSize>
+        	<origin>0 0</origin>
+        	<pos>0.003 0.003</pos>
+        	<size>0.65 0.08</size>
+        	<zIndex>32</zIndex>
+    	</text>
+
+</view>
+
+<!-- Gamelist view - Everything But Media - Detailed and Video Views END //-->
+
+
+<!-- Gamelist view - Basic View //-->   
+
+<view name="basic">
+
+    	<image name="background" extra="true">
+        	<tile>false</tile>
+        	<path>./_art/ingame-global-bg.png</path>
+        	<size>1 1</size>
+        	<pos>0 0</pos>
+    	</image>
+
+    	<text name="nameLabel" extra="true">
+        	<fontPath>./_art/BebasNeue.otf</fontPath>
+        	<alignment>left</alignment>
+        	<forceUppercase>1</forceUppercase>
+        	<color>FFFFFF</color>
+        	<fontSize>0.070</fontSize>
+        	<origin>0 0</origin>
+        	<pos>0.003 0.003</pos>
+        	<size>0.65 0.08</size>
+        	<zIndex>32</zIndex>
+    	</text>
+
+    	<textlist name="gamelist">
+        	<selectorColor>1c1c1c00</selectorColor>
+        	<selectedColor>FF3600</selectedColor>
+        	<selectorHeight>0.06</selectorHeight>
+        	<primaryColor>585858</primaryColor>
+        	<secondaryColor>888888</secondaryColor>
+        	<fontPath>./_art/Acre.otf</fontPath>
+        	<alignment>left</alignment>
+        	<pos>0 0.10</pos>
+	    	<size>.97 0.86</size>
+        	<fontSize>0.036</fontSize>
+        	<lineSpacing>1.5</lineSpacing>
+        	<horizontalMargin>0.003</horizontalMargin>
+        	<zIndex>32</zIndex>
+    	</textlist>
+
+</view>
+
+<!-- Gamelist view - Basic View END//-->
+
+<!-- Gamelist view - Media - Detailed View //-->
+
+<view name="detailed">
+
+	<image name="md_image">
+            	<pos>0.7 0.35</pos>
+            	<origin>0.5 0.5</origin>
+            	<maxSize>0.5 0.5</maxSize>
+	</image>
+	
+        <image name="md_marquee">
+            	<pos>0.7 0.68</pos>
+            	<origin>0.5 0.5</origin>
+            	<maxSize>0.5 0.15</maxSize>
+            	<zIndex>99</zIndex>
+        </image>
+	
+      	<rating name="md_rating"> 
+         	<pos>0.6 0.85</pos>
+         	<origin>0.5 0.5</origin>
+         	<size>0.06 0.06</size>
+         	<filledPath>./_art/star_full.png</filledPath>
+         	<unfilledPath>./_art/star_hollow.png</unfilledPath>
+         	<zIndex>33</zIndex>
+      	</rating>
+		
+</view>
+
+<!-- Gamelist view - Media - Detailed View END //-->
+
+<!-- Gamelist view - Media - Video View //-->
+
+<view name="video">
+       
+	<video name="md_video">
+            	<pos>.7 .35</pos>
+            	<origin>.5 .5</origin>
+            	<maxSize>.5 .5</maxSize>
+            	<delay>1.4</delay>
+            	<showSnapshotNoVideo>true</showSnapshotNoVideo>
+            	<showSnapshotDelay>true</showSnapshotDelay>
+	    	<zIndex>30</zIndex>
+        </video>
+	
+        <image name="md_marquee">
+            	<pos>0.7 0.68</pos>
+            	<origin>0.5 0.5</origin>
+            	<maxSize>0.5 0.15</maxSize>
+            	<zIndex>99</zIndex>
+        </image>
+	
+      	<rating name="md_rating"> 
+         	<pos>0.6 0.85</pos>
+         	<origin>0.5 0.5</origin>
+         	<size>0.06 0.06</size>
+         	<filledPath>./_art/star_full.png</filledPath>
+         	<unfilledPath>./_art/star_hollow.png</unfilledPath>
+         	<zIndex>33</zIndex>
+      	</rating>
+
+</view>
+
+
+<!-- Gamelist view - Media - Video View END //-->
+
+<!-- Menu View //-->
+
+<view name="menu">
+
+    	<menuBackground name="menubg">
+      		<color>202020</color>
+    	</menuBackground>
+	
+	<menuText name="menutext">
+	  	<fontPath>./_art/Acre.otf</fontPath>
+	  	<fontSize>.04</fontSize>
+	  	<color>dc071b</color>
+	</menuText>
+	
+	<menuTextEdit name="menutextedit">
+      		<inactive>./_art/assets/textinput_inactive.png</inactive>
+      		<active>./_art/assets/textinput_active.png</active>
+    	</menuTextEdit>
+
+</view>
+
+<!-- Menu View END //-->
+	
+</theme>

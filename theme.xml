@@ -1,0 +1,35 @@
+<!--
+Theme name:     Epic Cody
+Artwork by:     CodyV59 
+Coding by:      CodyV59
+Mod by:         G.R.H
+translation by: G.R.H
+
+Fonts used:  Acre Medium & Bebas Neue Bold
+
+thanks to Chicuelo and Nick L (c64-dev)
+
+# Thanks and Credits
+Some controllers and graphics used in this theme are created by great artists who kindly agreed to include their art within the theme.
+
+# License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see README.md for full details.
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+  	<variables>
+		<controllerSubsetName>Show controllers in system view</controllerSubsetName>
+	</variables>
+	
+	<subset name="controller" displayName="${controllerSubsetName}">
+        <include name="on" displayName="${on}"/>
+        <include name="off" displayName="${off}">./_art/settings/controllers.xml</include>
+    </subset>
+
+    <include subset="systemview" name="NEON MOD" >./neon.xml</include>
+    <include subset="systemview" name="STANDARD MOD" >./standard.xml</include>
+
+	
+</theme>
