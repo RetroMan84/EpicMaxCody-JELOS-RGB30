@@ -28,8 +28,8 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <include name="off" displayName="${off}">./_art/settings/controllers.xml</include>
     </subset>
 
-    <include subset="systemview" name="NEON MOD" >./neon.xml</include>
     <include subset="systemview" name="STANDARD MOD" >./standard.xml</include>
+    <include subset="systemview" name="NEON MOD" >./neon.xml</include>
 
 	
 </theme>

@@ -65,12 +65,10 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         	<alignment>left</alignment>
         	<forceUppercase>0</forceUppercase>
         	<fontSize>0.033</fontSize>
-     		<color>00000099</color>
+     		<color>dc071b</color>
         	<origin>0 0</origin>
         	<pos>0.008 0.003</pos>
         	<size>0.5 0.025</size>
-		<glowColor>ff360033</glowColor>
-		<glowSize>3</glowSize>
         	<zIndex>34</zIndex>
     	</text>
     
@@ -78,13 +76,11 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         	<fontPath>./_art/BebasNeue.otf</fontPath>
         	<alignment>left</alignment>
         	<forceUppercase>1</forceUppercase>
-        	<color>00000099</color>
+        	<color>dc071b</color>
 		<fontSize>0.07</fontSize>
         	<origin>0 0</origin>
         	<pos>0.011 0.1</pos>
         	<size>0 0</size>
-		<glowColor>ff360055</glowColor>
-		<glowSize>4</glowSize>
     	</text>
     
     	<text name="sys_line2" extra="true">
@@ -95,9 +91,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         	<origin>0 0</origin>
         	<pos>0.008 0.150</pos>
         	<size>0 0</size>
-      	  	<color>FFFFFF55</color>
-		<glowColor>44444477</glowColor>
-		<glowSize>4</glowSize>
+      	  	<color>dc071b</color>
     	</text>
 
     	<text name="systemInfo">
@@ -155,8 +149,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 	    	<origin>0 0</origin>
         	<textColor>ffffff</textColor>
         	<iconColor>dc071b</iconColor>
-		<glowColor>ff360033</glowColor>
-		<glowSize>3</glowSize>
     	</helpsystem>
 </view>
 
@@ -167,8 +159,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 	    	<origin>0 0</origin>
         	<textColor>ffffff</textColor>
         	<iconColor>dc071b</iconColor>
-		<glowColor>ff360033</glowColor>
-		<glowSize>3</glowSize>
     	</helpsystem>
 </view>
 
@@ -179,7 +169,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 <view name="screen">
 
     	<text name="clock">
-     		<color>00000099</color>
+     		<color>dc071b</color>
       		<fontPath>./_art/BebasNeue.otf</fontPath>
       		<fontSize>0.04</fontSize>
       		<origin>1 1</origin>
@@ -188,8 +178,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
       		<alignment>left</alignment>
       		<verticalAlignment>center</verticalAlignment>
 		<rotation>0</rotation>
-		<glowColor>ff360033</glowColor>
-		<glowSize>3</glowSize>
     	</text>
 
  	<batteryIndicator name="batteryIndicator">
